@@ -18,6 +18,7 @@ import {
   RESOURCES_ROUTE,
   BLOG_ROUTE,
   APPLY_ROUTE,
+  COURSES_ROUTE,
 } from '../../constants/routes'
 
 interface ILinksProps {
@@ -92,6 +93,7 @@ const links: string[][] = [
   ['Resources', RESOURCES_ROUTE],
   ['Blog', BLOG_ROUTE],
   ['Apply', APPLY_ROUTE],
+  ['Courses', COURSES_ROUTE],
 ]
 
 export const Links = ({ active }: ILinksProps): React.ReactElement => (

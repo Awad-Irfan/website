@@ -3,15 +3,15 @@ import React from 'react'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import { WideContainer } from '../shared'
-import { Resources } from '../components/Resources'
+import { Courses } from '../components/Courses'
 
-const ResourcesPage = (): React.ReactElement => (
+const CoursesPage = (): React.ReactElement => (
 	<Layout>
-		<SEO title="Resources" />
+		<SEO title="Courses" />
 		<WideContainer>
-			<Resources />
+			<Courses />
 		</WideContainer>
 	</Layout>
 )
 
-export default ResourcesPage
+export default CoursesPage
