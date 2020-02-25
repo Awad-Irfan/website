@@ -6,12 +6,12 @@ import { WideContainer } from '../shared'
 import { Courses } from '../components/Courses'
 
 const CoursesPage = (): React.ReactElement => (
-	<Layout>
-		<SEO title="Courses" />
-		<WideContainer>
-			<Courses />
-		</WideContainer>
-	</Layout>
+  <Layout>
+    <SEO title="Courses" />
+    <WideContainer>
+      <Courses />
+    </WideContainer>
+  </Layout>
 )
 
 export default CoursesPage
